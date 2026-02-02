@@ -18,7 +18,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/ваш-username/telegram-weather-bot.git
+git clone https://github.com/asss372009-coder/telegram-weather-bot/tree/main
 cd telegram-weather-bot
 
 # Установить зависимости
@@ -27,4 +27,5 @@ pip install -r requirements.txt
 # Запустить бота
 BOT_TOKEN=8296665266:AAEK-An5Ycbj2mhgWDDC7PQL9HWvOfjEHp8
 WEATHER_API_KEY=5c03e2ac45923cc274af003b54cf763f 
+
 python bot.py
