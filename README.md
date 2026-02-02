@@ -25,5 +25,6 @@ cd telegram-weather-bot
 pip install -r requirements.txt
 
 # Запустить бота
-BOT_TOKEN=8296665266:AAEK-An5Ycbj2mhgWDDC7PQL9HWvOfjEHp8 WEATHER_API_KEY=5c03e2ac45923cc274af003b54cf763f python bot.py
-
+BOT_TOKEN=8296665266:AAEK-An5Ycbj2mhgWDDC7PQL9HWvOfjEHp8
+WEATHER_API_KEY=5c03e2ac45923cc274af003b54cf763f 
+python bot.py
