@@ -4,14 +4,14 @@ services:
     env: python
     region: frankfurt  # или: oregon, singapore, ohio
     plan: free
-
+    
     # Команды сборки и запуска
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-
+    
     # Автоматический деплой
     autoDeploy: true
-
+    
     # Переменные окружения (будут запрошены при создании)
     envVars:
       - key: BOT_TOKEN
