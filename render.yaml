@@ -1,0 +1,20 @@
+services:
+  - type: worker
+    name: weather-bot
+    env: python
+    region: frankfurt
+    plan: free
+
+    # Команды сборки и запуска
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+
+    # Автоматический деплой
+    autoDeploy: true
+
+    # Переменные окружения (будут запрошены при создании)
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: WEATHER_API_KEY
+        sync: false
